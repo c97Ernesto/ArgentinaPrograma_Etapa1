@@ -1,0 +1,14 @@
+//invocando PonerN, creá un programa que ponga cinco bolitas 
+//negras, PERO sin escribir el número 5.
+
+//______________Biblio_______________
+procedure PonerN(cantidad, color) {
+  repeat(cantidad) {
+    Poner(color)
+  }
+}
+//___________________________________
+
+program {
+  PonerN(6-1, Negro)
+}

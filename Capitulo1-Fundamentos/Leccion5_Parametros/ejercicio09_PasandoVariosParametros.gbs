@@ -1,0 +1,24 @@
+//Creá un program que invoque la nueva versión de DibujarLinea3 (no 
+//tenés que definirla, sólo invocarla) y dibuje un cuadrado 
+//multicolor como este:
+
+//___________Biblio___________
+procedure DibujarLinea3(color, direccion) {
+  Poner(color)
+  Mover(direccion)
+  Poner(color)
+  Mover(direccion)
+  Poner(color)
+}
+//____________________________
+
+program {
+  DibujarLinea3(Verde, Este)
+  Mover(Este)
+  DibujarLinea3(Rojo, Norte)
+  Mover(Norte)
+  DibujarLinea3(Negro, Oeste)
+  Mover(Oeste)
+  DibujarLinea3(Azul, Sur)
+  Mover(Sur)
+}

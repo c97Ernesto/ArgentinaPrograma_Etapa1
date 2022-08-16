@@ -1,0 +1,23 @@
+//Definí dos procedimientos: el procedimiento PonerGuirnalda que 
+//coloque 3 bolitas rojas y 3 bolitas verdes en una celda y el 
+//procedimiento DecorarTablero que lo utilice y ponga una 
+//guirnalda en cada esquina superior. Invocá DecorarTablero en el 
+//program. Tené en cuenta que no sabemos la posición inicial donde 
+//se encontrará el cabezal.
+
+procedure PonerGuirnalda(){
+  Poner3Verdes()
+  Poner3Rojas()
+}
+
+procedure DecorarTablero(){
+  IrAlBorde(Norte)
+  IrAlBorde(Oeste)
+  PonerGuirnalda()
+  IrAlBorde(Este)
+  PonerGuirnalda()
+}
+
+program{
+  DecorarTablero()
+}

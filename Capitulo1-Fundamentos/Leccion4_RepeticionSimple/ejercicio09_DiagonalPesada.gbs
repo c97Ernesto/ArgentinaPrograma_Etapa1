@@ -1,0 +1,18 @@
+//Ahora vamos a hacer lo mismo, pero en versión "pesada".
+//¿Qué quiere decir esto? Que en vez de poner 1 bolita en 
+//cada celda, ahora hay que poner 21. Mirá la imagen:
+//Definí un procedimiento DiagonalPesada4Azul que resuelva el problema.
+
+procedure Poner21Azules(){
+  repeat(21){
+    Poner(Azul)
+  }
+}
+
+procedure DiagonalPesada4Azul(){
+  repeat(4){
+    Poner21Azules()
+    Mover(Este)
+    Mover(Norte)
+  }
+}

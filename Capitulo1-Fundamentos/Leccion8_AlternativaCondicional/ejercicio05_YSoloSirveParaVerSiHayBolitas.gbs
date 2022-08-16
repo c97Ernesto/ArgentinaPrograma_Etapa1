@@ -1,0 +1,10 @@
+//Creá un programa que se mueva al Este sólo si es posible. 
+//Recordá utilizar puedeMover(direccion).
+//puedeMover(direccion) que nos sirve para saber si el 
+//cabezal puede moverse en una cierta dirección.
+
+program{
+  if (puedeMover(Este)){
+    Mover(Este)
+    }
+}

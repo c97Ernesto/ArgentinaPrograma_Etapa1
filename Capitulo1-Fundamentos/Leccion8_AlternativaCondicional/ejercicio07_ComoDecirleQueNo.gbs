@@ -1,0 +1,10 @@
+//Definí un procedimiento AsegurarUnaBolitaVerde() que se 
+//asegure que en la celda actual hay al menos una bolita verde. 
+//Esto es: si ya hay bolitas verdes no hay que hacer nada, 
+//pero si no hay tendría que poner una.
+
+procedure AsegurarUnaBolitaVerde(){
+  if (not hayBolitas(Verde)){
+    Poner(Verde)
+  }
+}

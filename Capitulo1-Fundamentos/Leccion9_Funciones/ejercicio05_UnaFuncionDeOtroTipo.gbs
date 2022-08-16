@@ -1,0 +1,8 @@
+//Definí la función rojoEsDominante() que nos diga si la 
+//cantidad de bolitas rojas es mayor que la suma de las 
+//bolitas de los otros colores. En la Biblioteca está 
+//todasExcepto(color) lista para ser invocada.
+
+function rojoEsDominante(){
+  return (nroBolitasTotal()- todasExcepto(Rojo) > todasExcepto(Rojo))
+}

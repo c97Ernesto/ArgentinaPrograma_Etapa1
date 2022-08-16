@@ -1,0 +1,14 @@
+//Definí el procedimiento DibujarDosPuntas e invocalo 
+//dentro un program. Acordate de utilizar DibujarPuntaNegra.
+
+procedure DibujarDosPuntas(){
+  DibujarPuntaNegra()
+  Mover(Este)
+  Mover(Norte)
+  Mover(Norte)
+  DibujarPuntaNegra()
+}
+
+program {
+  DibujarDosPuntas()
+}

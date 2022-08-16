@@ -1,0 +1,7 @@
+//Invocando nroBolitas, definí el procedimiento CopiarVerdesEnRojas.
+//nroBolitas(color). Lo que hace es simple: nos retorna la cantidad 
+//de bolitas de un color determinado en la posición actual.
+
+procedure CopiarVerdesEnRojas(){
+  PonerN(nroBolitas(Verde), Rojo)
+}

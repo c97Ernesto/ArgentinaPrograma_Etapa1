@@ -1,0 +1,7 @@
+//Definí un procedimiento PonerSuma(x, y) que reciba dos 
+//parámetros y ponga la cantidad de bolitas rojas que 
+//surge de sumar x e y.
+
+procedure PonerSuma(x, y){
+  PonerN(x+y, Rojo)
+}

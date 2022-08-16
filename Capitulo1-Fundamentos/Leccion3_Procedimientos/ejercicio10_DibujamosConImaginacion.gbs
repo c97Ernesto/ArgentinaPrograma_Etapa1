@@ -1,0 +1,15 @@
+//Definí el procedimiento DibujarPuntaNegra e invocalo dentro 
+//de un program. El cabezal comienza en el origen y debe 
+//terminar en el extremo inferior derecho de la punta.
+
+procedure DibujarPuntaNegra(){
+  Poner(Negro)
+  Mover(Norte)
+  Poner(Negro)
+  Mover(Este)
+  Mover(Sur)
+  Poner(Negro)
+}
+program {
+  DibujarPuntaNegra()
+}

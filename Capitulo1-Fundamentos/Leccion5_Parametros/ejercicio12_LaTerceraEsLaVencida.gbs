@@ -1,0 +1,13 @@
+//Definí el procedimiento Triada.
+//Triada recibe tres colores por parámetro y pone tres 
+//bolitas, una al lado de la otra hacia el Este, en el mismo 
+//orden en que se reciben. El cabezal empieza en el origen 
+//y debe terminar sobre la última bolita de la tríada.
+
+procedure Triada(color1, color2, color3){
+  Poner(color1)
+  Mover(Este)
+  Poner(color2)
+  Mover(Este)
+  Poner(color3)
+}

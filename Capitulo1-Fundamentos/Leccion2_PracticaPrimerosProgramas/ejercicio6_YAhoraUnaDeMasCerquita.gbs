@@ -1,0 +1,31 @@
+//Con el cabezal en el origen, tu tarea es dibujar 
+//esta pseudo-bandera argentina:
+program{
+  Poner(Azul)
+  Mover(Este)
+  Poner(Azul)
+  Mover(Este)
+  Poner(Azul)
+  Mover(Este)
+  Poner(Azul)
+  Mover(Este)
+  Poner(Azul)
+  
+  Mover(Norte)
+  Mover(Norte)
+  
+  Poner(Azul)
+  Mover(Oeste)
+  Poner(Azul)
+  Mover(Oeste)
+  Poner(Azul)
+  Mover(Oeste)
+  Poner(Azul)
+  Mover(Oeste)
+  Poner(Azul)
+  
+  Mover(Sur)
+  Mover(Este)
+  Mover(Este)
+  Poner(Rojo)
+}

@@ -1,0 +1,10 @@
+//todasExcepto(color). Lo que tiene que hacer es sencillo, 
+//contar cuántas bolitas hay en la celda actual sin tener 
+//en cuenta las del color recibido por parámetro.
+//Definí la función todasExcepto para que retorne la 
+//cantidad de bolitas que no sean del color que se le 
+//pasa por parámetro.
+
+function todasExcepto(color){
+  return (nroBolitasTotal() - nroBolitas(color))
+}

@@ -1,0 +1,15 @@
+//Definí el procedimiento DibujarCuadradoNegroDeLado3 que invocando 
+//DibujarLineaNegra3 dibuje un cuadrado negro sobre el tablero. 
+//Invocalo en un program.
+
+procedure DibujarCuadradoNegroDeLado3(){
+  repeat(2){
+    DibujarLineaNegra3() 
+    Mover(Norte)
+  }
+  DibujarLineaNegra3()
+}
+
+program{
+  DibujarCuadradoNegroDeLado3()
+}

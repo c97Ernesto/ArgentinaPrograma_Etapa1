@@ -1,0 +1,7 @@
+//intentá crear un programa que ponga 1 bolita negra sólo si hay menos de 5 bolitas negras.
+
+program{
+  if (nroBolitas(Negro) < 5){
+    Poner(Negro)
+  }
+}

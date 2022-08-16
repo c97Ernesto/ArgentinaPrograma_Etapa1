@@ -1,0 +1,19 @@
+//Definí un procedimiento GuardaDe5(), que haga una "guarda" 
+//de 5 azulejos (como las que decoran las paredes). Cada 
+//azulejo está conformado por 1 bolita verde, 5 negras y 9 rojas.
+
+procedure Ponerlas(){
+  PonerN(9, Rojo)
+  PonerN(1, Verde)
+  PonerN(5, Negro)
+}
+procedure PonerlasEnDir(cant, dir){
+  repeat(cant){
+    Ponerlas()
+    Mover(dir)
+  }
+}
+procedure GuardaDe5(){
+  PonerlasEnDir(4, Este)
+  Ponerlas()
+}

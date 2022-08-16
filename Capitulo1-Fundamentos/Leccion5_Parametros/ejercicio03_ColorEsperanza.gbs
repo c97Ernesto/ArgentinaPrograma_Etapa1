@@ -1,0 +1,14 @@
+//Definí el procedimiento DibujarLineaVerde3 e invocalo en el program.
+
+procedure DibujarLineaVerde3(){
+  repeat(2){
+    Poner(Verde)
+    Mover(Este)
+  }
+  Poner(Verde)
+  VolverAtras()
+}
+
+program{
+  DibujarLineaVerde3()
+}

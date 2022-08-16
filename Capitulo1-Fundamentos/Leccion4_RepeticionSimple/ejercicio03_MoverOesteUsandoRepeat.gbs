@@ -1,0 +1,8 @@
+//Llegó tu turno de nuevo: definí un procedimiento 
+//MoverOeste5 que se mueva 5 veces al Oeste.
+
+procedure MoverOeste5() {
+  repeat(5) {
+    Mover(Oeste)
+  }
+}

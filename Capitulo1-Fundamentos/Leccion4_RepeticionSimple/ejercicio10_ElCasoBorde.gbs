@@ -1,0 +1,10 @@
+//definí una nueva versión de LineaNegra4Este que deje el 
+//cabezal en la última celda de la línea.
+
+procedure LineaNegra4Este() {
+  repeat(3) {
+    Poner(Negro)
+    Mover(Este)
+  }
+  Poner(Negro)
+}

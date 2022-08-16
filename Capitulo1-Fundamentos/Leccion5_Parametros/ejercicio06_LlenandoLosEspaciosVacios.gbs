@@ -1,0 +1,14 @@
+//Creá un programa que ponga tres bolitas verdes. No 
+//te olvides de invocar el procedimiento Poner3.
+
+//___________Biblio___________
+procedure Poner3(color) {
+  Poner(color)
+  Poner(color)
+  Poner(color)
+}
+//____________________________
+
+program {
+  Poner3(Verde)
+}

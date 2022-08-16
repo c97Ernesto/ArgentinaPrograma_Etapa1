@@ -1,0 +1,25 @@
+//Diagonal4AzulVolviendo, Este procedimiento debería hacer 
+//lo mismo que Diagonal4Azul, pero tiene que dejar el 
+//cabezal en la posición inicial. 
+
+//___________Biblio___________
+procedure Diagonal4Azul(){
+    repeat(4){
+        Poner(Azul)
+        Mover(Este)
+        Mover(Norte)
+    }
+}
+//____________________________
+
+
+procedure Volver(){
+  repeat(4){
+    Mover(Sur)
+    Mover(Oeste)
+  }
+}
+procedure Diagonal4AzulVolviendo(){
+  Diagonal4Azul()
+  Volver()
+}

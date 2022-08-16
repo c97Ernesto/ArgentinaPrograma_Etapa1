@@ -1,0 +1,16 @@
+//Definí el procedimiento LineaEstePesada(peso, color, longitud). 
+//Tené en cuenta que el cabezal debe regresar a la posición 
+//inicial. Para eso vas a tener que invocar MoverN.
+
+//LineaEstePesada(3, Verde, 5) debería dibujar una línea verde, 
+//ocupando cinco celdas hacia el Este y poniendo tres bolitas 
+//en cada una de ellas:
+
+procedure LineaEstePesada(peso, color, longitud){
+  repeat(longitud-1) {
+    PonerN(peso, color)
+    MoverN(1, Este)
+  }
+  PonerN(peso, color)
+  MoverN(longitud-1, Oeste)
+}

@@ -1,0 +1,6 @@
+//definí la función estoyEnUnBorde() que determine si el 
+//cabezal está parado en algún borde.
+
+function estoyEnUnBorde(){
+  return (not((puedeMover(Norte) && puedeMover(Sur)) && (puedeMover(Este) && puedeMover(Oeste))))
+}

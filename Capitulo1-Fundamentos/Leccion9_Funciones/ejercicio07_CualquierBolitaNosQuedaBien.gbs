@@ -1,0 +1,6 @@
+//Definí la función hayAlgunaBolita() que responda a la 
+//pregunta ¿hay alguna bolita en la celda actual?
+
+function hayAlgunaBolita(){
+  return(hayBolitas(Verde) || hayBolitas(Azul) || hayBolitas(Rojo) || hayBolitas(Negro))
+}

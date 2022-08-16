@@ -1,0 +1,26 @@
+//Definí un procedimiento DibujarLineaColorida que dibuje 
+//una línea multicolor de cuatro celdas hacia el Este y 
+//al finalizarla ubique el cabezal en la celda inicial. 
+//Tené en cuenta que siempre partimos del extremo Oeste. 
+//Invocá el nuevo procedimiento en un program.
+
+procedure PonerBolas(){
+  Poner(Rojo)
+  Poner(Verde)
+  Poner(Negro)
+  Poner(Azul)
+}
+procedure DibujarLineaColorida(){
+  PonerBolas()
+  Mover(Este)
+  PonerBolas()
+  Mover(Este)
+  PonerBolas()
+  Mover(Este)
+  PonerBolas()
+  IrAlBorde(Oeste)
+}
+
+program{
+  DibujarLineaColorida()
+}

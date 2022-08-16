@@ -1,0 +1,9 @@
+//Creá un programa que ponga 9 bolitas rojas en la celda 
+//actual invocando el procedimiento Poner3Rojas todas 
+//las veces que sea necesario.
+
+program{
+  Poner3Rojas()
+  Poner3Rojas()
+  Poner3Rojas()
+}

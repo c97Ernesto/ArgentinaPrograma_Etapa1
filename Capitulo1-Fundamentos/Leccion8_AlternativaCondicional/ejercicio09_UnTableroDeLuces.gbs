@@ -1,0 +1,15 @@
+//Definí un procedimiento PrenderOApagarLuz() que se encargue 
+//de prender las luces que estén apagadas o apagar las luces 
+//encendidas, según corresponda. Tené en cuenta que en cada 
+//celda solo puede haber bolitas de color verde o negro.
+
+procedure PrenderOApagarLuz(){
+  if (hayBolitas(Verde)){
+    Sacar(Verde)
+    Poner(Negro)
+    
+  } else{
+      Sacar(Negro)
+      Poner(Verde)
+  }
+}

@@ -1,0 +1,19 @@
+//Definí un procedimiento DibujarCuadradoColorido que dibuje 
+//un cuadrado de 4×4 celdas en el que cada celda tenga una 
+//bolita de cada color e invocalo en el program. El cabezal 
+//debe quedar en la celda inicial.
+
+procedure DibujarCuadradoColorido(){
+  DibujarLineaColorida()
+  Mover(Norte)
+  DibujarLineaColorida()
+  Mover(Norte)
+  DibujarLineaColorida()
+  Mover(Norte)
+  DibujarLineaColorida()
+  IrAlBorde(Sur)
+}
+
+program{
+  DibujarCuadradoColorido()
+}

@@ -1,0 +1,11 @@
+// Queremos poner 3 bolitas verdes en dos celdas consecutivas 
+//como muestra el tablero:
+//Creá un programa que lo haga invocando el procedimiento 
+//Poner3Verdes. Recordá que ya te lo damos definido ¡no tenés 
+//que volver a escribirlo!
+
+program {
+  Poner3Verdes()
+  Mover(Este)
+  Poner3Verdes()
+}

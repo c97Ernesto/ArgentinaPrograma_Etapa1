@@ -1,0 +1,9 @@
+//Definí un procedimiento MoverN(cantidad, direccion) que 
+//haga que el cabezal se desplace la cantidad especificada 
+//de veces en la dirección indicada.
+
+procedure MoverN(cantidad, direccion){
+  repeat(cantidad){
+    Mover(direccion)
+  }
+}

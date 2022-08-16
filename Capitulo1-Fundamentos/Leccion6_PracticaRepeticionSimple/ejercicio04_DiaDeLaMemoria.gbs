@@ -1,0 +1,12 @@
+//El objetivo, entonces, es definir un procedimiento DiaDeLaMemoria():
+//*En la celda actual, poné 24 bolitas Azules, que representan el día.
+//*En la celda inmediatamente al Este, poné 3 bolitas Verdes, que representan el mes.
+//*En la celda a continuación, poné 1976 bolitas Negras, representando el año.
+
+procedure DiaDeLaMemoria(){
+  PonerN(24, Azul)
+  Mover(Este)
+  PonerN(3, Verde)
+  Mover(Este)
+  PonerN(1976, Negro)
+}

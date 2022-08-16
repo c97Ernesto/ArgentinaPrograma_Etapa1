@@ -1,0 +1,8 @@
+//Definí el procedimiento ContarGente(micros, autos, bicicletas) 
+//que a partir de la cantida de micros, autos y bicicletas que 
+//recibe como parámetro, haga las cuentas necesarias y refleje 
+//el resultado con bolitas de color verde.
+
+procedure ContarGente(micros, autos, bicicletas){
+  PonerN(((micros*40)+(autos*4)+(bicicletas)), Verde)
+}

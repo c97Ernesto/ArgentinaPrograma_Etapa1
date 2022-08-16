@@ -1,0 +1,28 @@
+//Definí el procedimiento DibujarLinea3 que reciba un color y 
+//dibuje una línea de ese color. Despreocupate por los programs 
+//para invocarlo con cada uno de los colores, van por nuestra parte.
+
+//___________Biblio___________
+procedure DibujarLineaNegra3() {
+  repeat(2) {
+    Poner(Negro)
+    Mover(Este)
+  }
+  Poner(Negro)
+  VolverAtras()
+}
+
+procedure VolverAtras() {
+    Mover(Oeste)
+    Mover(Oeste)
+}
+//____________________________
+
+procedure DibujarLinea3(color){
+  repeat(2){
+    Poner(color)
+    Mover(Este)
+  }
+  Poner(color)
+  VolverAtras()
+}

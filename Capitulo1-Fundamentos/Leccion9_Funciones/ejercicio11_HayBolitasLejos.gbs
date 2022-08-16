@@ -1,0 +1,9 @@
+//Definí la función hayBolitasLejosAl(direccion, color, distancia)
+//hayBolitasLejosAl, recibirá tres parámetros: una dirección hacia 
+//donde deberá moverse, un color por el cual preguntar y una distancia 
+//que será la cantidad de veces que habrá que moverse.
+
+function hayBolitasLejosAl(dir, color, cant){
+  MoverN(cant, dir)
+  return(hayBolitas(color))
+}

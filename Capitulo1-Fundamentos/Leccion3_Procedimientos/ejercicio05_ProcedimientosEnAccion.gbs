@@ -1,0 +1,11 @@
+//Completá el código para que además de definir el 
+//procedimiento PonerNegroYRojo luego lo invoque en el program.
+
+procedure PonerNegroYRojo() {
+	Poner(Negro)
+	Poner(Rojo)
+}
+
+program {
+  PonerNegroYRojo()
+}

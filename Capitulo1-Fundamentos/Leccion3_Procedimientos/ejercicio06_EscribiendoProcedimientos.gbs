@@ -1,0 +1,12 @@
+//Definí un procedimiento Poner3Verdes que ponga 3 bolitas 
+//verdes en la celda actual e invocalo en el program.
+
+procedure Poner3Verdes() {
+  Poner(Verde)
+  Poner(Verde)
+  Poner(Verde)
+}
+
+program {
+  Poner3Verdes()
+}

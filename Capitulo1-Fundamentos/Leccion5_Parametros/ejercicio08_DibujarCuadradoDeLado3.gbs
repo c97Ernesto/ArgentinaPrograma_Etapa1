@@ -1,0 +1,10 @@
+//Invocando DibujarLinea3, definí el procedimiento DibujarCuadradoDeLado3 
+//que recibe un color y dibuja un cuadrado de 3x3 de ese color.
+
+procedure DibujarCuadradoDeLado3(color){
+  repeat (2){
+    DibujarLinea3(color)
+    Mover(Norte)
+  }
+  DibujarLinea3(color)
+}

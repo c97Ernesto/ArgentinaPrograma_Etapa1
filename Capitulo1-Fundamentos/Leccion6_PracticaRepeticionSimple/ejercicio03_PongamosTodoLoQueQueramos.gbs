@@ -1,0 +1,7 @@
+//Definí el procedimiento PonerN(cantidad, color).
+
+procedure PonerN(cant, color){
+  repeat(cant){
+    Poner(color)
+  }
+}

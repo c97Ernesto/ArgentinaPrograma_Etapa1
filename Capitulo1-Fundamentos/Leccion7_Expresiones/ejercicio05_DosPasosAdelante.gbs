@@ -1,0 +1,16 @@
+//Definí el procedimiento CaminarDesconfiado(pasos) que 
+//simule el caminar de Carlos: debe recibir la cantidad 
+//de pasos que debería dar y recorrer la mitad. Siempre 
+//se mueve al Este.
+
+//______________Biblio_______________
+procedure MoverN(cantidad, direccion) {
+  repeat(cantidad) {
+    Mover(direccion)
+  }
+}
+//___________________________________
+
+procedure CaminarDesconfiado(pasos){
+  MoverN(pasos div 2, Este)
+}

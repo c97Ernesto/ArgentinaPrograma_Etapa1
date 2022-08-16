@@ -1,0 +1,11 @@
+//Para ejercitar esto ultimo, te vamos a pedir que definas un procedimiento 
+//CompletarCelda() que, si ya hay alguna bolita negra, complete la celda 
+//poniendo una roja, una azul y una verde.
+
+procedure CompletarCelda(){
+  if (hayBolitas(Negro)){
+    Poner(Verde)
+    Poner(Rojo)
+    Poner(Azul)
+  }
+}

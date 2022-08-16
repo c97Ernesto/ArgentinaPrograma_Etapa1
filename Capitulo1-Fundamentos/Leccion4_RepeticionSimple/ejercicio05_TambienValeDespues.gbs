@@ -1,0 +1,9 @@
+//Definí el procedimiento PonerAzulLejos, que coloque 
+//una bolita Azul 4 celdas hacia el Este:
+
+procedure PonerAzulLejos(){
+  repeat(4){
+    Mover(Este)
+  }
+  Poner(Azul)
+}

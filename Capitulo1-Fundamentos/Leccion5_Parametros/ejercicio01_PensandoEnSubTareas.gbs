@@ -1,0 +1,24 @@
+//Definí el procedimiento DibujarLineaNegra3 que, como su nombre 
+//lo indica, dibuje una línea poniendo 3 bolitas negras consecutivas 
+//hacia el Este y dejando el cabezal donde comenzó. Invocalo en un program.
+//En la Biblioteca vas a encontrar el procedimiento VolverAtras. 
+//¡Eso significa que podés invocarlo sin tener que definirlo!
+
+//_______________Biblio________________
+procedure VolverAtras() {
+    Mover(Oeste)
+    Mover(Oeste)
+}
+//_________________________________
+procedure DibujarLineaNegra3(){
+  repeat(2){
+    Poner(Negro)
+    Mover(Este)
+  }
+  Poner(Negro)
+  VolverAtras()
+}
+
+program {
+  DibujarLineaNegra3()
+}

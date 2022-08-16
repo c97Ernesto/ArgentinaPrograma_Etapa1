@@ -1,0 +1,30 @@
+//El procedimiento debe llamarse BandaDiagonal4. ¡Ojo! 
+//prestá atención a la posición final del cabezal.
+
+//___________Biblio___________
+procedure Diagonal4AzulVolviendo(){
+  Diagonal4AzulAvanzando()
+  repeat(4){
+    Mover(Sur)
+    Mover(Oeste)
+  }
+}
+
+procedure Diagonal4AzulAvanzando(){
+  repeat(4){
+    Poner(Azul)
+    Mover(Este)
+    Mover(Norte)
+  }
+}
+//____________________________
+
+procedure BandaDiagonal4(){
+  repeat(3){
+    Diagonal4AzulVolviendo()
+    Mover(Norte)
+  }
+  repeat(3){
+    Mover(Sur)
+  }
+}

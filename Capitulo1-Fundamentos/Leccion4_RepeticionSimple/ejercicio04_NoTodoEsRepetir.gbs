@@ -1,0 +1,10 @@
+//Definí el procedimiento Poner3AlNoreste(), que ponga 
+//3 bolitas negras en la primera celda al Noreste del cabezal.
+
+procedure Poner3AlNoreste (){
+  Mover(Norte)
+  Mover(Este)
+  repeat(3) {
+    Poner(Negro)
+  }
+}

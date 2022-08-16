@@ -1,0 +1,8 @@
+//El siguiente programa coloca una bolita roja en 
+//la posición inicial y una negra al este.
+
+program {
+  Poner(Rojo)
+  Mover(Este)
+  Poner(Negro)
+}
