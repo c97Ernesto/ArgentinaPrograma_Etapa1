@@ -42,7 +42,7 @@
 </ul>
 
 <ul>
-    <strong><a href="/Capitulo3-Objetos">Capítulo 3: Programación con "Objetos" utilizando Ruby (.ruby)</a></strong>
+    <strong><a href="/Capitulo3-Objetos">Capítulo 3: Programación con "Objetos" utilizando Ruby (.rb)</a></strong>
     <ul>
         <a href="/Capitulo3-Objetos/Leccion2_PracticaFuncionesYTipoDeDatos">Lección 2: Funciones y tipos de datos</a>
         <br>
