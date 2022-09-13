@@ -1,7 +1,7 @@
 <h1 align="center">Práctias Argentina Programa 💻</h1>
 
 <ul>
-    <a href="/Capitulo1-Fundamentos">Capítulo 1: Fundamentos</a>
+    <strong><a href="/Capitulo1-Fundamentos">Capítulo 1: Fundamentos</a></strong>
     <ul>
         <a href="/Capitulo1-Fundamentos/Leccion2_PracticaPrimerosProgramas">Lección 2: Primeros programas</a>
         <br>
@@ -22,7 +22,7 @@
 </ul>
 
 <ul>
-    <a href="/Capitulo2-Imperativo">Capítulo 2: Imperativo</a>
+    <strong><a href="/Capitulo2-Imperativo">Capítulo 2: Imperativo</a></strong>
     <ul>
         <a href="/Capitulo2-Imperativo/Leccion1_FuncionesYTipoDeDatos">Lección 1: Funciones y tipos de datos</a>
         <br>
@@ -42,7 +42,7 @@
 </ul>
 
 <ul>
-    <a href="/Capitulo3-Objetos">Capítulo 3: Objetos</a>
+    <strong><a href="/Capitulo3-Objetos">Capítulo 3: Objetos</a></strong>
     <ul>
         <a href="/Capitulo3-Objetos/Leccion2_PracticaFuncionesYTipoDeDatos">Lección 2: Funciones y tipos de datos</a>
         <br>
