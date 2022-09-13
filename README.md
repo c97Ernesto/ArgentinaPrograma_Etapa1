@@ -1,8 +1,8 @@
-<h2>Práctias de la estapa 1 de Argentina Programa.</h2>
-<p><strong>Recopilación de algunos ejercicios de la etapa #YoPrograma.</strong></p>
+<h2>#SeProgramar</h2>
+<p><strong>Recopilación de algunos ejercicios prácticos de la 1ra etapa del Plan Argentina Programa año 2022.</strong></p>
 
 <ul>
-    <strong><a href="/Capitulo1-Fundamentos">Capítulo 1: "Fundamentos" utilizando Gobstone (.gbs)</a></strong>
+    <strong><a href="/Capitulo1-Fundamentos">Módulo uno: "Fundamentos" utilizando Gobstone (.gbs)</a></strong>
     <ul>
         <a href="/Capitulo1-Fundamentos/Leccion2_PracticaPrimerosProgramas">Lección 2: Primeros programas</a>
         <br>
@@ -23,7 +23,7 @@
 </ul>
 
 <ul>
-    <strong><a href="/Capitulo2-Imperativo">Capítulo 2: Programación "Imperativa" utilizando JavaScript (.js)</a></strong>
+    <strong><a href="/Capitulo2-Imperativo">Módulo dos: Programación "Imperativa" utilizando JavaScript (.js)</a></strong>
     <ul>
         <a href="/Capitulo2-Imperativo/Leccion1_FuncionesYTipoDeDatos">Lección 1: Funciones y tipos de datos</a>
         <br>
@@ -43,7 +43,7 @@
 </ul>
 
 <ul>
-    <strong><a href="/Capitulo3-Objetos">Capítulo 3: Programación con "Objetos" utilizando Ruby (.rb)</a></strong>
+    <strong><a href="/Capitulo3-Objetos">Módulo tres: Programación con "Objetos" utilizando Ruby (.rb)</a></strong>
     <ul>
         <a href="/Capitulo3-Objetos/Leccion2_PracticaFuncionesYTipoDeDatos">Lección 2: Funciones y tipos de datos</a>
         <br>
