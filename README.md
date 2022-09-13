@@ -1,4 +1,5 @@
-<h1 align="center">Práctias Argentina Programa 💻</h1>
+<h2>Práctias de la estapa 1 de Argentina Programa.</h2>
+<p><strong>Recopilación de algunos ejercicios de la etapa #YoPrograma.</strong></p>
 
 <ul>
     <strong><a href="/Capitulo1-Fundamentos">Capítulo 1: "Fundamentos" utilizando Gobstone (.gbs)</a></strong>
