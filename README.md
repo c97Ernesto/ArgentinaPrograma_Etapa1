@@ -1,5 +1,5 @@
-<h2>#SeProgramar</h2>
-<p><strong>Recopilación de algunos ejercicios prácticos de la 1ra etapa del Plan Argentina Programa año 2022.</strong></p>
+<h1>#SeProgramar</h1>
+<h3><strong>Recopilación de algunos ejercicios prácticos de la 1ra etapa del Plan Argentina Programa año 2022.</strong></h3>
 
 <ul>
     <strong><a href="/Capitulo1-Fundamentos">Módulo uno: "Fundamentos" utilizando Gobstone (.gbs)</a></strong>
